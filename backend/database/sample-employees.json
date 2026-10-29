@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1001,
+    "name": "Ananya Kapoor",
+    "email": "ananya.k@example.com",
+    "phone": "9876543210",
+    "department": "Engineering",
+    "designation": "Software Developer",
+    "salary": 65000,
+    "joiningDate": "2025-06-12"
+  },
+  {
+    "id": 1002,
+    "name": "Rohan Mehta",
+    "email": "rohan.m@example.com",
+    "phone": "9876543211",
+    "department": "Design",
+    "designation": "UI/UX Designer",
+    "salary": 55000,
+    "joiningDate": "2025-08-04"
+  },
+  {
+    "id": 1003,
+    "name": "Priya Sharma",
+    "email": "priya.s@example.com",
+    "phone": "9876543212",
+    "department": "Human Resources",
+    "designation": "HR Manager",
+    "salary": 60000,
+    "joiningDate": "2024-11-18"
+  },
+  {
+    "id": 1004,
+    "name": "Arjun Patel",
+    "email": "arjun.p@example.com",
+    "phone": "9876543213",
+    "department": "Engineering",
+    "designation": "Backend Developer",
+    "salary": 70000,
+    "joiningDate": "2026-10-01"
+  },
+  {
+    "id": 1005,
+    "name": "Sneha Desai",
+    "email": "sneha.d@example.com",
+    "phone": "9876543214",
+    "department": "Marketing",
+    "designation": "Marketing Executive",
+    "salary": 42000,
+    "joiningDate": "2025-09-22"
+  },
+  {
+    "id": 1006,
+    "name": "Vikram Singh",
+    "email": "vikram.s@example.com",
+    "phone": "9876543215",
+    "department": "Finance",
+    "designation": "Financial Analyst",
+    "salary": 58000,
+    "joiningDate": "2026-10-01"
+  },
+  {
+    "id": 1007,
+    "name": "Neha Joshi",
+    "email": "neha.j@example.com",
+    "phone": "9876543216",
+    "department": "Engineering",
+    "designation": "QA Engineer",
+    "salary": 48000,
+    "joiningDate": "2026-03-09"
+  },
+  {
+    "id": 1008,
+    "name": "Aditya Rao",
+    "email": "aditya.r@example.com",
+    "phone": "9876543217",
+    "department": "Design",
+    "designation": "Product Designer",
+    "salary": 62000,
+    "joiningDate": "2026-01-15"
+  },
+  {
+    "id": 1009,
+    "name": "Ishita Kulkarni",
+    "email": "ishita.k@example.com",
+    "phone": "9876543218",
+    "department": "Engineering",
+    "designation": "Frontend Developer",
+    "salary": 56000,
+    "joiningDate": "2026-02-16"
+  },
+  {
+    "id": 1010,
+    "name": "Rahul Verma",
+    "email": "rahul.v@example.com",
+    "phone": "9876543219",
+    "department": "Operations",
+    "designation": "Operations Manager",
+    "salary": 68000,
+    "joiningDate": "2025-04-07"
+  },
+  {
+    "id": 1011,
+    "name": "Kavya Nair",
+    "email": "kavya.n@example.com",
+    "phone": "9876543220",
+    "department": "Marketing",
+    "designation": "Content Strategist",
+    "salary": 46000,
+    "joiningDate": "2026-05-11"
+  },
+  {
+    "id": 1012,
+    "name": "Siddharth Shah",
+    "email": "siddharth.s@example.com",
+    "phone": "9876543221",
+    "department": "Finance",
+    "designation": "Accountant",
+    "salary": 50000,
+    "joiningDate": "2025-07-21"
+  },
+  {
+    "id": 1013,
+    "name": "Meera Iyer",
+    "email": "meera.i@example.com",
+    "phone": "9876543222",
+    "department": "Human Resources",
+    "designation": "Recruitment Specialist",
+    "salary": 44000,
+    "joiningDate": "2026-06-08"
+  },
+  {
+    "id": 1014,
+    "name": "Dev Malhotra",
+    "email": "dev.m@example.com",
+    "phone": "9876543223",
+    "department": "Engineering",
+    "designation": "DevOps Engineer",
+    "salary": 74000,
+    "joiningDate": "2025-12-01"
+  },
+  {
+    "id": 1015,
+    "name": "Aditi Patil",
+    "email": "aditi.p@example.com",
+    "phone": "9876543224",
+    "department": "Design",
+    "designation": "Graphic Designer",
+    "salary": 41000,
+    "joiningDate": "2026-04-20"
+  },
+  {
+    "id": 1016,
+    "name": "Nikhil Bansal",
+    "email": "nikhil.b@example.com",
+    "phone": "9876543225",
+    "department": "Operations",
+    "designation": "Operations Executive",
+    "salary": 39000,
+    "joiningDate": "2026-07-06"
+  },
+  {
+    "id": 1017,
+    "name": "Pooja Reddy",
+    "email": "pooja.r@example.com",
+    "phone": "9876543226",
+    "department": "Engineering",
+    "designation": "Java Developer",
+    "salary": 63000,
+    "joiningDate": "2026-10-01"
+  },
+  {
+    "id": 1018,
+    "name": "Aman Gupta",
+    "email": "aman.g@example.com",
+    "phone": "9876543227",
+    "department": "Marketing",
+    "designation": "SEO Specialist",
+    "salary": 43000,
+    "joiningDate": "2026-08-10"
+  },
+  {
+    "id": 1019,
+    "name": "Sakshi Jain",
+    "email": "sakshi.j@example.com",
+    "phone": "9876543228",
+    "department": "Finance",
+    "designation": "Finance Executive",
+    "salary": 47000,
+    "joiningDate": "2026-03-23"
+  },
+  {
+    "id": 1020,
+    "name": "Karan Sethi",
+    "email": "karan.s@example.com",
+    "phone": "9876543229",
+    "department": "Engineering",
+    "designation": "Technical Lead",
+    "salary": 95000,
+    "joiningDate": "2024-09-02"
+  },
+  {
+    "id": 1021,
+    "name": "Tanvi More",
+    "email": "tanvi.m@example.com",
+    "phone": "9876543230",
+    "department": "Human Resources",
+    "designation": "HR Executive",
+    "salary": 38000,
+    "joiningDate": "2026-10-01"
+  },
+  {
+    "id": 1022,
+    "name": "Varun Menon",
+    "email": "varun.m@example.com",
+    "phone": "9876543231",
+    "department": "Operations",
+    "designation": "Office Administrator",
+    "salary": 36000,
+    "joiningDate": "2025-10-13"
+  },
+  {
+    "id": 1023,
+    "name": "Riya Choudhary",
+    "email": "riya.c@example.com",
+    "phone": "9876543232",
+    "department": "Design",
+    "designation": "Visual Designer",
+    "salary": 52000,
+    "joiningDate": "2026-09-14"
+  },
+  {
+    "id": 1024,
+    "name": "Abhishek Das",
+    "email": "abhishek.d@example.com",
+    "phone": "9876543233",
+    "department": "Engineering",
+    "designation": "Database Developer",
+    "salary": 67000,
+    "joiningDate": "2026-02-02"
+  }
+]

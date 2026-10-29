@@ -1,0 +1,117 @@
+/* PeopleDesk dark appearance. Layout and responsive rules remain in styles.css. */
+:root {
+  color-scheme: dark;
+  --ink: #e8f0ed;
+  --muted: #a5b6ae;
+  --teal: #79dfbc;
+  --line: #30423b;
+  --bg: #101716;
+  --surface: #192420;
+  --raised: #202e28;
+}
+body { background: var(--bg); color: var(--ink); }
+::selection { background: #79dfbc; color: #11251c; }
+.sidebar, .topbar, .stat-card, .department-card, .employee-card,
+.login-layout, .login-panel, dialog { background: var(--surface); }
+.sidebar, .topbar, .employee-card, .stat-card, .department-card, dialog { border-color: var(--line); }
+.brand-mark { background: var(--teal); color: #123c2c; box-shadow: 0 4px 18px #79dfbc12; }
+.brand { color: #f1f7f3; }
+.nav-label, .project-tag, .eyebrow { color: #a1b8a9; }
+.nav-item { color: #acbfb4; }
+.nav-item:hover { background: #24372d; }
+.nav-item.active { background: #284538; color: #98edcb; box-shadow: inset 3px 0 #79dfbc; }
+.nav-item b { background: #1a3025; border-color: #416451; color: #b0eccd; }
+.sidebar-card { background: #202f27; border-color: #364b3c; }
+.sidebar-card h3 { color: #e7f1e8; }
+.sidebar-card p, .sidebar-bottom small { color: #acbcb1; }
+.sidebar-bottom { border-color: var(--line); }
+.admin-avatar, .top-avatar { background: #493e2c; color: #f5d995; }
+.icon-button { color: #b5c6bc; }
+.icon-button:hover { background: #304139; color: #f1f7f3; }
+.topbar { color: #a8b9af; }
+.topbar strong { color: #e4ece7; }
+.breadcrumb { color: #81968a; }
+.preview-badge { color: #bbd1c2; background: #203127; border-color: #3b5444; }
+.preview-badge i, .green-dot { background: #86dca6; }
+h1, h2, h3 { color: #edf5f0; }
+.page-heading p { color: #a5b6ae; }
+.primary { color: #113525; background: #79dfbc; border-color: #79dfbc; box-shadow: 0 3px 12px #0002; }
+.primary:hover { background: #98ebcd; filter: none; }
+.secondary { background: #21332a; color: #daebe0; border-color: #48624f; }
+.secondary:hover { background: #2b4235; filter: none; }
+.danger { background: #f1968e; color: #391b18; border-color: #f1968e; }
+.danger:hover { background: #ffb1a9; filter: none; }
+button:disabled { opacity: .6; cursor: wait; }
+.stat-card { box-shadow: 0 5px 20px #00000012; }
+.stat-card>div { color: #b4c4ba; }
+.stat-card p { color: #a5b6ae; }
+.stat-icon { color: #b3e2bb; background: #2b4431; }
+.stat-icon.purple { color: #d7c4f7; background: #3b304c; }
+.stat-icon.peach { color: #efc49a; background: #45372a; }
+.stat-icon.blue { color: #bdcff5; background: #2e3b52; }
+.welcome-card { background: linear-gradient(115deg, #233b2d, #192c25); border-color: #3c5643; }
+.welcome-card .eyebrow { color: #abd0b3; }
+.welcome-card h2 { color: #e6f6e7; }
+.welcome-card p { color: #b2c8b6; }
+.text-button { color: #a2e7b7; }
+.orbit { border-color: #5c7e62; }
+.art-person { border-color: #20362a; background: #4b6341; color: #e0efcb; }
+.person-one { background: #4b6341; color: #e0efcb; }
+.person-two { background: #725344; color: #ffe0c7; }
+.person-three { background: #3e6557; color: #d3f0df; }
+.art-spark { color: #8ecb9f; }
+.art-label { background: #314936; color: #d1ebcc; border: 1px solid #55745a; box-shadow: 0 4px 12px #0003; }
+.card-heading>span, .department-row { color: #afc1b4; }
+.bar-track { background: #2a3b31; }
+.bar-fill { background: #8bc297; }
+.department-row:nth-child(2) .bar-fill { background: #b2c68a; }
+.department-row:nth-child(3) .bar-fill { background: #d8ba88; }
+.department-row:nth-child(4) .bar-fill { background: #b0bce6; }
+.employee-heading h2 span { color: #b3ebcb; background: #2a4333; }
+.employee-heading p { color: #a5b6ae; }
+.search-box { background: #131f19; border-color: #405647; }
+.search-box>span { color: #a5c3af; }
+.search-box input { color: #e9f1ec; }
+.search-box input::placeholder { color: #a2b4a8; }
+.table-toolbar select { background: #1b2a21; color: #d1e0d5; border-color: #405647; }
+.results-label { color: #a5b6ae; }
+th { background: #223128; color: #b5c7ba; border-color: var(--line); }
+td { border-color: #2c3d32; color: #b5c7ba; }
+tbody tr:hover { background: #213128; }
+.employee-cell strong { color: #e8f2eb; }
+.employee-cell small { color: #acbfb0; }
+.department-pill { color: #c7e5b5; background: #34452d; }
+.tone-1 { color: #f0d3a6; background: #4a3d2b; }
+.tone-2 { color: #decef6; background: #433650; }
+.tone-3 { color: #c0dcf7; background: #2e4257; }
+.tone-4 { color: #f1c7c5; background: #503737; }
+.avatar.tone-0 { background: #344c32; color: #cee9ad; }
+.row-actions button { color: #b8d4bf; border-color: #435849; background: #21362a; }
+.row-actions .delete-action { color: #f4b6ae; background: #3d2b29; border-color: #694740; }
+.row-actions button:hover { background: #35513d; filter: none; }
+.row-actions .delete-action:hover { background: #5b3833; }
+.table-footer, .page-footer { color: #a5b6ae; }
+.local-note { color: #aad3ad; }
+.empty-state>span { color: #acd9b8; }
+form input:not([type=hidden]) { background: #111e17; color: #eaf4ed; border-color: #48614e; }
+input::placeholder { color: #a2b5a6; }
+input:focus, select:focus, .search-box:focus-within { outline-color: #79dfbc; }
+button:focus-visible, a:focus-visible { outline-color: #9feccc; }
+.modal-footer { border-color: var(--line); }
+dialog::backdrop { background: #040b08ba; }
+.error { color: #ffb4aa; }
+.delete-symbol { color: #ffd0c9; background: #673d36; }
+.toast { background: #b5efd2; color: #173a29; border: 1px solid #d0ffe5; box-shadow: 0 8px 28px #0006; }
+.login-story { background: radial-gradient(ellipse at top left, #31523b 0, #1c3124 48%, #15261c 100%); }
+.login-story h1 { color: #edf7eb; }
+.login-story p { color: #b4cdb7; }
+.login-story small { color: #adc5b0; }
+.story-art { background: #2a422e; border-color: #536e4f; }
+.story-art>span { color: #b9d1a7; }
+.story-art b { color: #e4f2d8; }
+.story-art i { color: #94b47f; }
+.demo-note { background: #23362a; color: #c4d9c5; border: 1px solid #3f5a43; }
+.demo-note b { color: #d4efd0; }
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-track { background: #142019; }
+::-webkit-scrollbar-thumb { background: #526b59; border: 2px solid #142019; border-radius: 8px; }
